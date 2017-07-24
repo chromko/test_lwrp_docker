@@ -52,6 +52,7 @@ jobs:
         - tar xf .travis/secret_keys.tar -C .travis
       deploy:
         edge: true
+        all_branches: true
         # on:
         #   tags: true
         provider: chef-supermarket
