@@ -20,9 +20,6 @@ depends          'postgresql'
 depends          'mysql2_chef_gem'
 depends          'mysql'
 depends          'yum-mysql-community'
-depends          'yum-epel'
-depends          'yum-scl'
-
 
 recipe           'zabbix_lwrp::agent_linux', 'Installs and configures Zabbix agent for Linux.'
 recipe           'zabbix_lwrp::agent_win_bin', 'Installs and configures Zabbix agent for Windows.'
