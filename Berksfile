@@ -12,7 +12,6 @@ cookbook 'php-fpm'
 cookbook 'postgresql'
 cookbook 'mysql'
 cookbook 'yum-mysql-community'
-cookbook 'yum-epel'
 cookbook 'mysql2_chef_gem'
 
 group :integration do

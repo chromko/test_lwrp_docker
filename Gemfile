@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 group :berks do
-  gem 'berkshelf'
+  gem 'berkshelf', '6.2.1'
 end
 
 group :lint do
